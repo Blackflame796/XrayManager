@@ -7,7 +7,7 @@ import sys
 PORT = 3443
 DEST = "ok.ru:443"
 SNI = "ok.ru"
-XHTTP_PATH = "/trends"
+XHTTP_PATH = "/messages"
 IMAGE = "teddysun/xray"
 CONF_DIR = os.path.abspath("./xray_config")
 DATA_FILE = os.path.join(CONF_DIR, "data.json")
